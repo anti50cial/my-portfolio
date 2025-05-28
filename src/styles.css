@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+router-outlet {
+    padding-top: 68px;
+    display: block;
+}
