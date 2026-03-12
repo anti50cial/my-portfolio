@@ -1,31 +1,31 @@
 <section class="w-full bg-white dark:bg-gray-900 shadow-lg mt-3 pt-20 dark:shadow-gray-900 shadow-white" id="contact">
-    <p class="text-4xl font-bold text-black dark:text-white block text-center mb-2">Contact Me.</p>
-    <div class="block w-full pt-2.5">
-        <div class="p-6 shadow-xl space-y-8 sm:p-8 bg-white md:rounded-lg dark:bg-gray-800 w-full md:w-xl rounded-none block m-auto">
-            <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
-                Fill this form
-            </h2>
-            <form class="mt-8 space-y-6" action="#">
-                <div>
-                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-                    <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
-                </div>
-                <div>
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-                    <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" placeholder="Write your thoughts here..."></textarea>
-                </div>
-                <div class="flex items-start">
-                    <div class="flex items-center h-5">
-                        <input id="remember" aria-describedby="remember" name="remember" type="checkbox" class="w-4 h-4 border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600" required />
-                    </div>
-                    <div class="ms-3 text-sm">
-                        <label for="remember" class="font-medium text-gray-500 dark:text-gray-400">Remember this device</label>
-                    </div>
-                </div>
-                <button type="submit" class="w-full px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">SUBMIT</button>
-            </form>
+  <p class="text-4xl font-bold text-black dark:text-white block text-center mb-2">Contact Me.</p>
+  <div class="block w-full pt-2.5">
+    <div class="p-6 shadow-xl space-y-8 sm:p-8 bg-white md:rounded-lg dark:bg-gray-800 w-full md:w-xl rounded-none block m-auto">
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white">
+        Fill this form
+      </h2>
+      <form class="mt-8 space-y-6" action="https://formspree.io/f/meerkary" method="post">
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+          <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
         </div>
-        <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 justify-items-center mt-5 pt-5 pb-5 bg-white dark:bg-gray-800 ">
+        <div>
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
+          <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 resize-none" placeholder="Write your thoughts here..."></textarea>
+        </div>
+        <!-- <div class="flex items-start">
+          <div class="flex items-center h-5">
+            <input id="remember" aria-describedby="remember" name="remember" type="checkbox" class="w-4 h-4 border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600" />
+          </div>
+          <div class="ms-3 text-sm">
+            <label for="remember" class="font-medium text-gray-500 dark:text-gray-400">Remember this device</label>
+          </div>
+        </div> -->
+        <button type="submit" class="w-full px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">SUBMIT</button>
+      </form>
+    </div>
+    <!-- <div class="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 justify-items-center mt-5 pt-5 pb-5 bg-white dark:bg-gray-800 ">
             <fa-icon [icon]="faFB" class="cursor-pointer text-3xl md:text-5xl lg:text-7xl text-gray-800 dark:text-white m-1 hover:text-blue-700"></fa-icon>
             <fa-icon [icon]="faTwitter" class="cursor-pointer text-3xl md:text-5xl lg:text-7xl text-gray-800 dark:text-white m-1 hover:text-blue-400"></fa-icon>
             <fa-icon [icon]="faIG" class="cursor-pointer text-3xl md:text-5xl lg:text-7xl text-gray-800 dark:text-white m-1 hover:text-fuchsia-400"></fa-icon>
@@ -34,6 +34,16 @@
             <fa-icon [icon]="faWA" class="cursor-pointer text-3xl md:text-5xl lg:text-7xl text-gray-800 dark:text-white m-1 hover:text-green-500"></fa-icon>
             <fa-icon [icon]="faDiscord" class="cursor-pointer text-3xl md:text-5xl lg:text-7xl text-gray-800 dark:text-white m-1 hover:text-blue-600"></fa-icon>
             <fa-icon [icon]="faDribbble" class="cursor-pointer text-3xl md:text-5xl lg:text-7xl text-gray-800 dark:text-white m-1 hover:text-pink-500"></fa-icon>
-        </div>
+        </div> -->
+    <div class="flex w-full flex-wrap p-4 bg-slate-950 justify-evenly">
+      <a href="https://wa.me/+2349161847618" target="_blank" class="opacity-70 hover:opacity-100 duration-500 group">
+        <fa-icon [icon]="faWA" class="cursor-pointer text-gray-800 dark:text-white m-1 group-hover:text-green-500"></fa-icon>
+        +234 9161847618
+      </a>
+      <a href="https://github.com/anti50cial" target="_blank" class="opacity-70 hover:opacity-100 duration-500 group">
+        <fa-icon [icon]="faGitHub" class="cursor-pointer  text-gray-800 dark:text-white m-1 group-hover:text-purple-500"></fa-icon>
+        View My GitHub profile
+      </a>
     </div>
+  </div>
 </section>
